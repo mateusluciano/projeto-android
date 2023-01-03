@@ -2,11 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); 
 
-@font-face {
-    font-family: 'Android';
-    src: url('/fontes/idroid.otf') format('opentype');
-    font-weight: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 :root {
     --cor5: #054F5C;
@@ -17,7 +13,7 @@
 
     --fonte-padrao: Arial, verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', 'cursive';
-    --fonte-android: 'Android', 'cursive';
+    --fonte-android: 'Righteous', 'cursive';
 }
 
 * {
